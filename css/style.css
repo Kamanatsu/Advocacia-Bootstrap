@@ -8,3 +8,35 @@ header{
     width: 100vw;
     z-index: 10;
 }
+
+.bg-padrao{
+    background-color: #d3d3d350;
+}
+.bg-button{
+    background-color:#d8c3ba;
+}
+
+.img-parc {
+    min-height: 25vh;
+    max-height: 25vh;
+    min-width: 25vw;
+    max-width: 25vw;
+}
+.icones{
+
+display:flex;
+flex-direction: column;
+margin-left: 4vh;
+padding-bottom: 4vh;
+padding-top: 4vh;
+}
+.whatsapp-icon,.google-maps-icon,.email-icon,.judge-icon,.instagram-icon {
+font-size: 24px;
+color: #807675;
+margin-top:4vh;
+transition: 0.5s;
+}
+
+.whatsapp-icon:hover,.google-maps-icon:hover, .judge-icon:hover, .instagram-icon:hover,.email-icon:hover{
+color:#0f020a;
+}
